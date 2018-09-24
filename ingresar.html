@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>        
+        <meta charset="UTF-8">        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="description" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">     
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">    
+        <title>Ingresar Propiedades</title>
+    </head>
+    
+    
+    <body>   
+        
+    <!--Ingresar Propiedades-->    
+        
+    <div id="lista">
+        <header>
+        <nav class='cf'>
+        <ul class='cf'>
+            <!--Header menu-->
+            <li class="hide-on-small">
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="propiedades.html">Propiedades</a>
+            </li>
+            <li>
+                <a href="ingresar.html">Ingresar</a>
+            </li>
+        </ul>
+            <!--Responsive Dropdown-->
+            <li class="drop">
+                <a href='#' id='openup'><i class="fas fa-bars"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="index.html">Inicio</a> 
+                        <a href="propiedades.html">Propiedades</a>                  
+                    </div>
+            </li>      
+        </nav>
+        </header> 
+    
+            
+     <!--Left Sidebar-->
+     <div class="contain body-form">
+        <div class="wrapper">
+            <div class="sidebar-info color-side">
+                <h3><br>PROPIEDADES<br></h3>
+                    <ul>
+                    <li><i class="fa fa-user-circle"></i>  admin</li>
+                    </ul>
+            </div>
+            
+            <!--Form-->
+            <div class="house-info body-form">
+                <h3>Propiedad</h3>
+                <form>
+                    <p class="name">
+                        <label>Nombre</label>
+                        <input type="text">
+                    </p>
+                    <p></p>
+                    <p>
+                        <label>Ubicación</label>
+                        <select class="dropdown-form">
+                            <option value="1">Valencia</option>
+                            <option value="2">Naguanagua</option>
+                            <option value="3">Caracas</option>
+                        </select>
+                    </p>
+                    <p>            
+                        <label>Estado</label>
+                        <select class="dropdown-form">
+                            <option value="1">En Alquiler</option>
+                            <option value="2">En Venta</option>
+                            <option value="3">Alquilada</option>
+                            <option value="4">Vendida</option>
+                        </select>
+                   </p>
+                   <p>            
+                        <label>Precio Alquiler</label>
+                        <input type="number" placeholder="Bs.S">
+                   </p>
+                   <p>
+                        <label>Precio Venta</label>
+                        <input type="number" placeholder="Bs.S">
+                   </p>
+                   <p class="full">
+                       <label>Descripción</label>
+                       <textarea name="message" rows="4" cols="50"></textarea>
+                   </p>
+                   <p>
+                        <label for="fileupload">Foto de Referencia</label>
+                        <input type="file" name="fileupload" value="fileupload" id="fileupload">            
+                   </p>                    
+                   <p class="full">
+                        <button><b>REGISTRAR</b></button>
+                   </p>
+                </form>
+            </div>
+        </div>
+     </div>     
+            
+    <!--Footer--> 
+    <footer>
+        <div class="footer-bottom text-center">
+            <a href='#'>Agencia Inmobiliaria</a> 
+        </div>
+    </footer> 
+        
+    </div>   
+    </body>  
+</html>
